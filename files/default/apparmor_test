@@ -1,0 +1,7 @@
+# vim:syntax=apparmor
+
+#include <tunables/global>
+
+/usr/bin/apparmor_test {
+  #include <abstractions/base>
+}
